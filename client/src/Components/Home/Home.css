@@ -1,0 +1,134 @@
+body{
+    background-color: skyblue;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.authentication{
+    position: absolute;
+    left: -0.6em;
+}
+
+.emailList{
+    position: absolute;
+    left: -4.6em;
+    border-radius: 1.5626em;
+    height: 6.25em;
+}
+.emailList label {
+    font-size: 2em;
+    position: relative;
+    left: 0.3em;
+}
+.authentication a {
+    padding: 0.20em;
+    margin-left: 1.4em;
+    position: relative;
+    border: 0.0625em solid black;
+    border-radius: 0.3125em;
+    color: blue;
+    right: 0.5em;
+}
+.topLeft {
+    position: relative;
+    left: 15em;
+}
+
+
+.topLeft h1{
+    font-size: 3em;
+}
+
+.topLeft h5 {
+    font-size: 1.75em;
+}
+
+.topRight{
+    position: relative;
+    left: 63em;
+    bottom: 17em;
+   
+}
+
+.topRight h1 {
+    position: relative;
+    font-size: 3em;
+    right: 0.4em;
+}
+
+
+.topRight a {
+    font-size: 1.5em;
+}
+
+input{
+    border: 0.0625em solid black;
+}
+
+.emailList input[type="text"] {
+    
+    height: 2.5em;
+    padding-right: 3.125em;
+    border-radius: 3.125em;
+    font-size: 1.5em;
+}
+
+.emailList input[type="submit"] {
+    font-size: 1.5em;
+    margin-left: -3.125em;
+    height: 2.8125em;
+    width: 3.125em;
+    border-radius: 100%;
+}
+
+.middleRight {
+    position: relative;
+    left: 50em;
+    bottom: 5em;
+}
+
+
+.contactForm {
+    width:100%;
+    position: relative;
+    left: 50em;
+}
+
+.contactForm h1 {
+    position: relative;
+    left: 3.5em;
+    font-size: 3em;
+}
+
+.contactForm form * {
+    font-size: 1.5em;
+}
+
+.contactForm input[type="text"]{
+    position:relative;
+    height: 1.75em;
+    border-radius: 0.3125em;
+    width: 8em;
+    margin-right: 1em;
+    left: 3.6em;
+}
+
+.contactForm input[type="submit"]{
+    border-radius: 0.5em;
+    padding: 0.5em;
+    width: 10em;
+    position: relative;
+    left: 7.3em;
+}
+
+.contactForm input[type="email"] {
+    position:relative;
+    left: 2.2em;
+    height: 2em;
+    width: 20em;
+}
+
+input {
+    text-align: center;
+}
+
